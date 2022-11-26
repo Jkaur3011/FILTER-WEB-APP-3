@@ -1,0 +1,78 @@
+body{
+    background-color: #622C6D;
+}
+
+h1{
+    font-size: 30px !important;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(154, 90, 209);
+    border-width: 100px;
+    border-style: solid;
+    animation-name: h1_ani;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes h1_ani {
+    0%   {border-color: red;}
+    25%  {border-color: yellow;}
+    50%  {border-color: blue;}
+    100% {border-color: green;}
+}
+
+#color_eyeshadow_input{
+    width: 200px;
+}
+
+h3{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#take_pic{
+    background-color: #853c94;
+    color: white;
+    font-size: 15px !important;
+}
+
+#take_pic:hover{
+    background-color:green;
+}
+
+
+  canvas{
+    border-width: 6px;
+    border-color: purple;
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-style: ridge;
+    animation-name: bshadow;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    margin-top: 10px;
+}
+  
+  @keyframes bshadow {
+    0%   {box-shadow: 10px 10px 50px palevioletred;}
+    25%  {box-shadow: 10px 10px 50px plum;}
+    50%  {box-shadow: 10px 10px 50px purple;}
+    75%  {box-shadow: 10px 10px 50px rosybrown; }
+    100% {box-shadow: 10px 10px 50px palevioletred;}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
